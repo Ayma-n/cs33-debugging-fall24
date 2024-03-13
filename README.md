@@ -30,4 +30,4 @@ Testing for correctness...
 strncmp: Passed 7 tests, Failed 3 tests | 70.000000%
 ```
 
-Good luck and please email us if you have any questions (cs0330headtas@lists.brown.edu). We're rooting for you! 
+Good luck and please email us if you have any questions (ayman_benjelloun_touimi@brown.edu, matthias_yee@brown.edu, nathan_harbison@brown.edu). We're rooting for you! 
