@@ -17,11 +17,11 @@
 void test_strncmp() {
   /**** PROVIDED TESTS ****/
   assert_same_sign(-3, strncmp("abcde", "abdde", 3), "strncmp(\"abcde\", \"abdde\", 3"); 
-  assert_same_sign(-5, strncmp("corona", "coronatime", 11), "strncmp(\"corona\", \"coronatime\")");
+  assert_same_sign(-116, strncmp("great", "greattime", 11), "strncmp(\"great\", \"greattime\", 11)");
   assert_same_sign(0, strncmp("abc", "abc", 3), "strncmp(\"abc\", \"abc\", 3)"); 
   assert_same_sign(0, strncmp("", "", 0), "strncmp("", "", 0)"); 
   assert_same_sign(5, strncmp("1234567", "123", 100), "strncmp(\"1234567\", \"123\", 100)"); 
-  assert_same_sign(0, strncmp("quarantine yourself", "quarantine", 10), "strncmp(\"quarantine yourself\", \"quarantine\", 11)");
+  assert_same_sign(0, strncmp("enjoy csthirtythree", "enjoy", 5), "strncmp(\"enjoy csthirtythree\", \"enjoy\", 10)");
   assert_same_sign(-2, strncmp("professor", "rpf", 3),
                    "strncmp(\"professor\", \"rpf\", 3)");
   assert_same_sign(114, strncmp("rpf", "", 3), "strncmp(\"rpf\", \"\", 3)");
