@@ -9,7 +9,7 @@ We've provided a test suite. Once you have finished, you should see:
 =================== Running strncmp Tests. ===================
 strncmp: Passed 10 tests, Failed 0 tests | 100.000000%
 ```
-In the function's current state, 3 of the 10 tests are failing. Note that these tests are certainly not exhaustive, so please make sure to write some of your own to ensure the funciton is working as expected.
+In the function's current state, 3 of the 10 tests are failing. Note that these tests are certainly not exhaustive, so please make sure to write some of your own to ensure the function is working as expected.
 
 **Please write up 2 explanations:**
 1. If a student posted this on Ed, what would your response be? The goal is to lead them to find their own way to the answer. You don't want to give the bug away point-blank.
@@ -25,7 +25,7 @@ Run the tests: `./run_tests all`. The first time you run the tests, you should s
 Testing for correctness...
 =================== Running strncmp Tests. ===================
 [FAILED Test 1: strncmp("abcde", "abdde", 3]: Expected -3, actual 64 (should be the same sign)
-[FAILED Test 2: strncmp("corona", "coronatime")]: Expected -5, actual 64 (should be the same sign)
+[FAILED Test 2: strncmp("great", "greattime")]: Expected -116, actual 64 (should be the same sign)
 [FAILED Test 7: strncmp("professor", "rpf", 3)]: Expected -2, actual 64 (should be the same sign)
 strncmp: Passed 7 tests, Failed 3 tests | 70.000000%
 ```
